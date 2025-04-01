@@ -15,9 +15,9 @@
         .container {
             width: 90%;
             max-width: 950px;
-            margin: 70px auto;
+            margin: 30px auto;
             background: #3A3A3A;
-            padding: 70px;
+            padding: 30px;
             box-shadow: 0px 0px 10px #555;
             border-radius: 7px;
             text-align: center;
