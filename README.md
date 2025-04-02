@@ -269,7 +269,7 @@
                         <li>Rental Management</li>
                         <li>Property Investment Advice</li>
                         <li>Market Analysis</li>
-                        <li>Recruitment for Estate Agents</li>
+                        <li>Recruitment of Agents</li>
                     </ul>
                 </div>
             </div>
