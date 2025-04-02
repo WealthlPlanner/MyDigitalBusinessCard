@@ -11,14 +11,19 @@
             color: #f0f0f0;
             display: flex;
             height: 100vh;
+            animation: fadeIn 3s ease-in-out;
         }
 
         /* Split the page into two halves */
-        .left-side {
-            background-color: #000000; /* Black side */
+        .left-side, .right-side {
             flex: 1;
             color: white;
             padding: 20px;
+            animation: fadeInUp 4s ease-in-out;
+        }
+
+        .left-side {
+            background-color: #000000; /* Black side */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,9 +32,6 @@
 
         .right-side {
             background-color: #001f3d; /* Dark Blue side */
-            flex: 1;
-            color: white;
-            padding: 20px;
         }
 
         .container {
@@ -40,14 +42,17 @@
             text-align: center;
             max-width: 950px;
             margin: 0 auto;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         h1, h2 {
             color: #e0e0e0;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         p {
             color: #dcdcdc;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .contact-info {
@@ -56,12 +61,14 @@
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .contact-info a {
             color: #ffffff;
             text-decoration: none;
             font-weight: bold;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .section {
@@ -70,6 +77,7 @@
             padding: 15px;
             background: #003b5c;
             border-radius: 5px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         /* Flexbox for services */
@@ -78,6 +86,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             gap: 20px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .service-item {
@@ -88,6 +97,7 @@
             color: #ffffff;
             box-sizing: border-box;
             min-width: 280px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .button {
@@ -98,6 +108,7 @@
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .button:hover {
@@ -108,6 +119,7 @@
             background: #004785;
             padding: 15px;
             border-radius: 5px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         input, textarea {
@@ -118,6 +130,7 @@
             border-radius: 4px;
             background: #003e58;
             color: #f0f0f0;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         button {
@@ -128,6 +141,7 @@
             cursor: pointer;
             width: 100%;
             border-radius: 4px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         button:hover {
@@ -148,6 +162,7 @@
             margin-bottom: 15px;
             font-size: 22px;
             text-decoration: underline;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .site-map a {
