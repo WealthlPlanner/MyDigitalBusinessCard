@@ -210,6 +210,23 @@
             }
         }
 
+        /* Flexbox container for the two new sections */
+        .what-i-do-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* Style for individual blocks */
+        .block {
+            background: #003b5c;
+            padding: 20px;
+            border-radius: 5px;
+            color: #ffffff;
+            flex: 1;
+            min-width: 45%;
+        }
     </style>
 </head>
 <body>
@@ -231,6 +248,33 @@
                 <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
             </div>
 
+            <div class="what-i-do-container">
+                <!-- What I Do Block -->
+                <div class="block" id="what-i-do">
+                    <h2>What I Do</h2>
+                    <ul>
+                        <li>Sales/ Skills Coach</li>
+                        <li>Mentorship</li>
+                        <li>Motivational Speaker</li>
+                        <li>Business Coach</li>
+                        <li>Life Coach</li>
+                        <li>Business Restructuring & Planning</li>
+                    </ul>
+                </div>
+
+                <!-- Sales & Rental Property Block -->
+                <div class="block" id="sales-rental-property">
+                    <h2>Sales & Rental Property</h2>
+                    <p>Offering expert assistance in the sale and rental of residential and commercial properties. Whether buying, selling, or renting, I provide comprehensive guidance to ensure the best possible outcome.</p>
+                    <ul>
+                        <li>Property Sales</li>
+                        <li>Rental Management</li>
+                        <li>Property Investment Advice</li>
+                        <li>Market Analysis</li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="section" id="services">
                 <h2>What We Do</h2>
                 <div class="services-container">
@@ -240,7 +284,7 @@
                     </div>
                     <div class="service-item">
                         <h3>Business Growth Planning</h3>
-                        <p>We help you map out a plan for sustainable growth, covering everything from funding to scaling without disrupting operations.</p>
+                        <p>We help you map out a plan for sustainable growth, covering short-term loans, long-loans and bridging finance without disrupting operations.</p>
                     </div>
                     <div class="service-item">
                         <h3>Leadership Development</h3>
@@ -252,18 +296,6 @@
                         <p>Monetize your steps. Get paid for walking and playing brain games. Improve your mental and physical health.</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="section" id="about">
-                <h2>What I Do</h2>
-                <ul>
-                    <li>Sales/ Skills Coach</li>
-                    <li>Mentorship</li>
-                    <li>Motivational Speaker</li>
-                    <li>Business Coach</li>
-                    <li>Life Coach</li>
-                    <li>Business Restructuring & Planning</li>
-                </ul>
             </div>
 
             <div class="section meeting-form" id="book-meeting">
