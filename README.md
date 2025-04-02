@@ -11,7 +11,6 @@
             color: #f0f0f0;
             display: flex;
             height: 100vh;
-            overflow: hidden;
         }
 
         /* Slow Motion Fade-in Animation */
@@ -55,11 +54,10 @@
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
-            animation: slowFadeIn 4s ease-in-out; /* Slow fade-in for contact info */
         }
 
         .service-item {
-            animation: slowFadeIn 5s ease-in-out; /* Slow fade-in for services */
+            animation: slowFadeIn 3s ease-in-out; /* Slow fade-in for services */
             background: #004785;
             padding: 20px;
             border-radius: 5px;
@@ -81,7 +79,7 @@
             scroll-behavior: smooth; /* Standard smooth scrolling */
         }
 
-        /* Site map and footer animations */
+        /* Optional: Apply animation for any other elements you want */
         .site-map {
             background: #003b5c;
             color: #ffffff;
@@ -89,38 +87,9 @@
             border-radius: 5px;
             margin-top: 30px;
             text-align: center;
-            animation: slowFadeIn 6s ease-in-out infinite;
+            animation: slowFadeIn 5s ease-in-out infinite;
         }
 
-        footer {
-            animation: slowFadeIn 7s ease-in-out infinite; /* Slow fade-in for footer */
-        }
-
-        /* General link styling */
-        a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s;
-        }
-
-        a:hover {
-            color: #ffcc00; /* Hover effect */
-        }
-
-        .button {
-            padding: 10px 20px;
-            background-color: #004785;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #ffcc00;
-        }
     </style>
 </head>
 <body>
