@@ -265,7 +265,7 @@
                 <!-- Sales & Rental Property Block -->
                 <div class="block" id="sales-rental-property">
                     <h2>Sales & Rental Property</h2>
-                    <p>Offering expert assistance in the sale and rental of residential and commercial properties. Whether buying, selling, or renting, I provide comprehensive guidance to ensure the best possible outcome.</p>
+                    <p>Offering expert assistance in the sale and rental of residential and commercial properties. Whether its buying, selling or renting. I provide comprehensive guidance to ensure the best possible outcome.</p>
                     <ul>
                         <li>Property Sales</li>
                         <li>Rental Management</li>
@@ -280,7 +280,7 @@
                 <div class="services-container">
                     <div class="service-item">
                         <h3>Sales Coaching</h3>
-                        <p>We offer personalized coaching for sales teams to improve their skills, performance, and mindset for long-term growth.</p>
+                        <p>We offer personalized coaching for sales teams to improve their skills, performance and mindset for long-term growth.</p>
                     </div>
                     <div class="service-item">
                         <h3>Business Growth Planning</h3>
