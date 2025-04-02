@@ -13,25 +13,9 @@
             height: 100vh;
         }
 
-        /* Slow Motion Fade-in Animation */
-        @keyframes slowFadeIn {
-            0% {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Apply the animation to the entire container */
-        .container {
-            animation: slowFadeIn 2s ease-in-out;
-        }
-
+        /* Split the page into two halves */
         .left-side {
-            background-color: #000000;
+            background-color: #000000; /* Black side */
             flex: 1;
             color: white;
             padding: 20px;
@@ -42,10 +26,28 @@
         }
 
         .right-side {
-            background-color: #001f3d;
+            background-color: #001f3d; /* Dark Blue side */
             flex: 1;
             color: white;
             padding: 20px;
+        }
+
+        .container {
+            background: #002b53; /* Dark blue for main container */
+            padding: 30px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            color: #e0e0e0;
+        }
+
+        p {
+            color: #dcdcdc;
         }
 
         .contact-info {
@@ -56,14 +58,18 @@
             margin-bottom: 20px;
         }
 
-        .service-item {
-            animation: slowFadeIn 3s ease-in-out; /* Slow fade-in for services */
-            background: #004785;
-            padding: 20px;
-            border-radius: 5px;
+        .contact-info a {
             color: #ffffff;
-            box-sizing: border-box;
-            min-width: 280px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #003b5c;
+            border-radius: 5px;
         }
 
         /* Flexbox for services */
@@ -74,9 +80,58 @@
             gap: 20px;
         }
 
-        /* Smooth scrolling with JavaScript */
-        html {
-            scroll-behavior: smooth;
+        .service-item {
+            flex: 1;
+            background: #004785;
+            padding: 20px;
+            border-radius: 5px;
+            color: #ffffff;
+            box-sizing: border-box;
+            min-width: 280px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #006b97;
+            color: #ffffff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #005f87;
+        }
+
+        .meeting-form {
+            background: #004785;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #004785;
+            border-radius: 4px;
+            background: #003e58;
+            color: #f0f0f0;
+        }
+
+        button {
+            background: #006b97;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #005f87;
         }
 
         .site-map {
@@ -86,13 +141,31 @@
             border-radius: 5px;
             margin-top: 30px;
             text-align: center;
-            animation: slowFadeIn 5s ease-in-out infinite;
+            animation: slowMotion 6s ease-in-out infinite;
         }
 
+        .site-map h2 {
+            margin-bottom: 15px;
+            font-size: 22px;
+            text-decoration: underline;
+        }
+
+        .site-map a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .site-map a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="left-side">
+        <!-- Left side content goes here -->
         <h1>Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
     </div>
@@ -124,6 +197,7 @@
                         <h3>Leadership Development</h3>
                         <p>We focus on developing strong leadership within organizations to drive success and foster a positive company culture.</p>
                     </div>
+                    <!-- New StepChain service item -->
                     <div class="service-item">
                         <h3>StepChain</h3>
                         <p>Monetize your steps. Get paid for walking and playing brain games. Improve your mental and physical health.</p>
@@ -185,22 +259,5 @@
             </footer>
         </div>
     </div>
-
-    <script>
-        // Slow smooth scrolling effect using JavaScript
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                window.scrollTo({
-                    top: targetElement.offsetTop,
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
