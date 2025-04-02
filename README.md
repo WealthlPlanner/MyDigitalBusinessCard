@@ -238,8 +238,6 @@
 
     <div class="right-side">
         <div class="container">
-            <h1 id="home">Preggie Govender</h1>
-            <h2>Chief Inspiration Officer</h2>
             <hr>
 
             <div class="contact-info" id="contact">
