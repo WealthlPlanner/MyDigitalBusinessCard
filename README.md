@@ -6,37 +6,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #F4F7FC; /* Light grayish blue background */
+            background-color: #001f3d; /* Darker background */
             margin: 0;
             padding: 0;
-            color: #333; /* Dark text color for better readability */
+            color: #f0f0f0; /* Light gray text for contrast */
             scroll-behavior: smooth;
         }
         .container {
             width: 90%;
             max-width: 950px;
             margin: 30px auto;
-            background: #FFFFFF; /* White background for main container */
+            background: #002b53; /* Dark blue for main container */
             padding: 30px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
             border-radius: 8px;
             text-align: center;
         }
         h1, h2 {
-            color: #004085; /* Dark blue for headings */
+            color: #e0e0e0; /* Very light gray for headings */
         }
         p {
-            color: #555; /* Darker gray for text */
+            color: #dcdcdc; /* Lighter gray text for general content */
         }
         .contact-info {
-            background: #CFE2FF; /* Light blue background for contact info */
-            color: #004085; /* Dark blue text */
+            background: #004785; /* Dark blue for contact info section */
+            color: #ffffff; /* White text */
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
         .contact-info a {
-            color: #004085; /* Dark blue links */
+            color: #ffffff; /* White text links */
             text-decoration: none;
             font-weight: bold;
         }
@@ -44,23 +44,42 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #D9E6FF; /* Light blue background for sections */
+            background: #003b5c; /* Darker blue background for sections */
             border-radius: 5px;
         }
+
+        /* Flexbox for services */
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px; /* Space between items */
+        }
+
+        .service-item {
+            flex: 1;
+            background: #004785;
+            padding: 20px;
+            border-radius: 5px;
+            color: #ffffff;
+            box-sizing: border-box;
+            min-width: 280px; /* Ensures that each item has a minimum width */
+        }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #004085; /* Dark blue button background */
-            color: #fff;
+            background-color: #006b97; /* Rich dark blue button */
+            color: #ffffff; /* White text */
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
         }
         .button:hover {
-            background-color: #003366; /* Even darker blue on hover */
+            background-color: #005f87; /* Slightly darker blue on hover */
         }
         .meeting-form {
-            background: #CFE2FF; /* Light blue background for form */
+            background: #004785; /* Dark blue background for form */
             padding: 15px;
             border-radius: 5px;
         }
@@ -68,13 +87,13 @@
             width: 100%;
             padding: 8px;
             margin: 5px 0;
-            border: 1px solid #004085; /* Dark blue border for inputs */
+            border: 1px solid #004785; /* Dark blue borders for inputs */
             border-radius: 4px;
-            background: #FFFFFF; /* White background for input fields */
-            color: #333; /* Dark text for readability */
+            background: #003e58; /* Dark background for inputs */
+            color: #f0f0f0; /* Light gray text in inputs */
         }
         button {
-            background: #004085; /* Dark blue button */
+            background: #006b97; /* Dark blue button */
             color: white;
             padding: 10px;
             border: none;
@@ -83,7 +102,7 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #003366; /* Darker blue on hover */
+            background: #005f87; /* Slightly darker blue on hover */
         }
 
         /* Smooth scrolling effect */
@@ -91,8 +110,8 @@
             scroll-behavior: smooth;
         }
         .site-map {
-            background: #CFE2FF; /* Light blue background for site map */
-            color: #004085; /* Dark blue text */
+            background: #003b5c; /* Dark blue background for site map */
+            color: #ffffff; /* White text */
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
@@ -105,7 +124,7 @@
             text-decoration: underline;
         }
         .site-map a {
-            color: #004085; /* Dark blue link color */
+            color: #ffffff; /* White links */
             text-decoration: none;
             font-weight: bold;
             display: block;
@@ -130,17 +149,20 @@
 
         <div class="section" id="services">
             <h2>What We Do</h2>
-            <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines, and targets. We give you access to affordable business funding that empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success.</p>
-        </div>
-
-        <div class="section" id="loans">
-            <h2>Loans & Short-Term Funding</h2>
-            <p>We offer short-term funding and bridging finance solutions to help you bridge the gap when it’s needed most. Whether you're dealing with cash flow challenges or need a temporary solution to cover costs, we're here to support your business in growing and thriving.</p>
-        </div>
-
-        <div class="section" id="stepchain">
-            <h2>StepChain</h2>
-            <p>Monetize your steps! With StepChain, get paid for walking and playing brain games. It's not only an opportunity to earn passive income but also a way to improve your mental and physical health. Start moving today and make every step count!</p>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3>Sales Coaching</h3>
+                    <p>We offer personalized coaching for sales teams to improve their skills, performance, and mindset for long-term growth.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Business Growth Planning</h3>
+                    <p>We help you map out a plan for sustainable growth, covering everything from funding to scaling without disrupting operations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Leadership Development</h3>
+                    <p>We focus on developing strong leadership within organizations to drive success and foster a positive company culture.</p>
+                </div>
+            </div>
         </div>
 
         <div class="section" id="about">
@@ -153,11 +175,6 @@
                 <li>Life Coach</li>
                 <li>Business Restructuring & Planning</li>
             </ul>
-        </div>
-
-        <div class="section" id="property">
-            <h2>Property: Sales Manager</h2>
-            <p>I specialize in sales and rentals, helping clients buy, sell, and rent properties. My experience ensures that your property needs are met with expertise and care, whether you’re looking to purchase your dream home or rent a space that suits your lifestyle.</p>
         </div>
 
         <div class="section meeting-form" id="book-meeting">
@@ -192,9 +209,6 @@
             <a href="#home">Home</a>
             <a href="#contact">Contact</a>
             <a href="#services">What We Do</a>
-            <a href="#loans">Loans & Short-Term Funding</a>
-            <a href="#stepchain">StepChain</a>
-            <a href="#property">Property: Sales Manager</a>
             <a href="#about">What I Do</a>
             <a href="#book-meeting">Book a Meeting</a>
         </div>
