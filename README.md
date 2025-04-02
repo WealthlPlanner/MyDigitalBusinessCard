@@ -156,11 +156,45 @@
             font-weight: bold;
             display: block;
             margin: 5px 0;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 6s ease-in-out infinite;
         }
 
         .site-map a:hover {
             text-decoration: underline;
         }
+
+        @keyframes slowMotion {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+
     </style>
 </head>
 <body>
