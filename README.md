@@ -6,37 +6,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #E6F7FF; /* Light blue background */
+            background-color: #F4F7FC; /* Light grayish blue background */
             margin: 0;
             padding: 0;
-            color: #333; /* Dark text color */
+            color: #333; /* Dark text color for better readability */
             scroll-behavior: smooth;
         }
         .container {
             width: 90%;
             max-width: 950px;
             margin: 30px auto;
-            background: #FFFFFF; /* White background */
+            background: #FFFFFF; /* White background for main container */
             padding: 30px;
-            box-shadow: 0px 0px 10px #A3C9FF; /* Soft blue shadow */
-            border-radius: 7px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+            border-radius: 8px;
             text-align: center;
         }
         h1, h2 {
-            color: #1E90FF; /* Blue color for headings */
+            color: #007BFF; /* Blue for headings */
         }
         p {
-            color: #333;
+            color: #555; /* Darker gray for text */
         }
         .contact-info {
-            background: #D9E6FF; /* Light blue background for contact info */
-            color: #1E90FF; /* Blue text */
+            background: #E9F3FE; /* Light blue background for contact info */
+            color: #007BFF; /* Blue text */
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
         .contact-info a {
-            color: #1E90FF; /* Blue link color */
+            color: #007BFF; /* Blue links */
             text-decoration: none;
             font-weight: bold;
         }
@@ -44,23 +44,23 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #F0F8FF; /* Light blue background for sections */
+            background: #F1F8FF; /* Very light blue background */
             border-radius: 5px;
         }
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #1E90FF; /* Blue button background */
+            background-color: #007BFF; /* Blue button background */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
         }
         .button:hover {
-            background-color: #4682B4; /* Darker blue on hover */
+            background-color: #0056b3; /* Darker blue on hover */
         }
         .meeting-form {
-            background: #D9E6FF; /* Light blue background for form */
+            background: #E9F3FE; /* Light blue background for form */
             padding: 15px;
             border-radius: 5px;
         }
@@ -68,13 +68,13 @@
             width: 100%;
             padding: 8px;
             margin: 5px 0;
-            border: 1px solid #A3C9FF; /* Light blue border */
+            border: 1px solid #007BFF; /* Blue border for inputs */
             border-radius: 4px;
             background: #FFFFFF; /* White background for input fields */
-            color: #333; /* Dark text */
+            color: #333; /* Dark text for readability */
         }
         button {
-            background: #1E90FF; /* Blue button */
+            background: #007BFF; /* Blue button */
             color: white;
             padding: 10px;
             border: none;
@@ -83,7 +83,7 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #4682B4; /* Darker blue on hover */
+            background: #0056b3; /* Darker blue on hover */
         }
 
         /* Smooth scrolling effect */
@@ -91,8 +91,8 @@
             scroll-behavior: smooth;
         }
         .site-map {
-            background: #D9E6FF; /* Light blue background for site map */
-            color: #1E90FF; /* Blue text */
+            background: #E9F3FE; /* Light blue background for site map */
+            color: #007BFF; /* Blue text */
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
@@ -105,7 +105,7 @@
             text-decoration: underline;
         }
         .site-map a {
-            color: #1E90FF; /* Blue link color */
+            color: #007BFF; /* Blue link color */
             text-decoration: none;
             font-weight: bold;
             display: block;
