@@ -273,6 +273,17 @@
                 </div>
             </div>
 
+            <!-- New Financial Advice Block -->
+            <div class="section" id="financial-advice">
+                <h2>Financial Advice</h2>
+                <ul>
+                    <li>Life Assurance</li>
+                    <li>Investments</li>
+                    <li>Retirement Planning</li>
+                    <li>Estate Planning</li>
+                </ul>
+            </div>
+
             <div class="section" id="services">
                 <h2>What We Do</h2>
                 <div class="services-container">
