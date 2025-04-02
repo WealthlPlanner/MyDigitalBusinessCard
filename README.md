@@ -230,17 +230,6 @@
     </style>
 </head>
 <body>
-    <div class="left-side">
-        <!-- Left side content goes here -->
-        <h1>Preggie Govender</h1>
-        <h2>Chief Inspiration Officer</h2>
-    </div>
-
-    <div class="right-side">
-        <div class="container">
-            <h1 id="home">Preggie Govender</h1>
-            <h2>Chief Inspiration Officer</h2>
-            <hr>
 
             <div class="contact-info" id="contact">
                 <p><strong>Contact Me</strong></p>
