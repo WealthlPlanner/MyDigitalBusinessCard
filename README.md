@@ -269,6 +269,7 @@
                         <li>Rental Management</li>
                         <li>Property Investment Advice</li>
                         <li>Market Analysis</li>
+                        <li><strong>Recruitment for Estate Agents</strong> - We assist in recruiting skilled estate agents for property sales and rental management roles.</li>
                     </ul>
                 </div>
             </div>
