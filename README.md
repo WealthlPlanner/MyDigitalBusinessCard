@@ -27,7 +27,7 @@
 
         /* Apply the animation to the entire container */
         .container {
-            animation: slowFadeIn 3s ease-in-out; /* Slow fade-in over 3 seconds */
+            animation: slowFadeIn 2s ease-in-out;
         }
 
         .left-side {
@@ -74,12 +74,11 @@
             gap: 20px;
         }
 
-        /* Smooth scrolling */
+        /* Smooth scrolling with JavaScript */
         html {
-            scroll-behavior: smooth; /* Standard smooth scrolling */
+            scroll-behavior: smooth;
         }
 
-        /* Optional: Apply animation for any other elements you want */
         .site-map {
             background: #003b5c;
             color: #ffffff;
@@ -94,7 +93,6 @@
 </head>
 <body>
     <div class="left-side">
-        <!-- Left side content goes here -->
         <h1>Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
     </div>
@@ -187,5 +185,22 @@
             </footer>
         </div>
     </div>
+
+    <script>
+        // Slow smooth scrolling effect using JavaScript
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
