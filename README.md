@@ -23,20 +23,20 @@
             text-align: center;
         }
         h1, h2 {
-            color: #007BFF; /* Blue for headings */
+            color: #004085; /* Dark blue for headings */
         }
         p {
             color: #555; /* Darker gray for text */
         }
         .contact-info {
-            background: #E9F3FE; /* Light blue background for contact info */
-            color: #007BFF; /* Blue text */
+            background: #CFE2FF; /* Light blue background for contact info */
+            color: #004085; /* Dark blue text */
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
         .contact-info a {
-            color: #007BFF; /* Blue links */
+            color: #004085; /* Dark blue links */
             text-decoration: none;
             font-weight: bold;
         }
@@ -44,23 +44,23 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #F1F8FF; /* Very light blue background */
+            background: #D9E6FF; /* Light blue background for sections */
             border-radius: 5px;
         }
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007BFF; /* Blue button background */
+            background-color: #004085; /* Dark blue button background */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
         }
         .button:hover {
-            background-color: #0056b3; /* Darker blue on hover */
+            background-color: #003366; /* Even darker blue on hover */
         }
         .meeting-form {
-            background: #E9F3FE; /* Light blue background for form */
+            background: #CFE2FF; /* Light blue background for form */
             padding: 15px;
             border-radius: 5px;
         }
@@ -68,13 +68,13 @@
             width: 100%;
             padding: 8px;
             margin: 5px 0;
-            border: 1px solid #007BFF; /* Blue border for inputs */
+            border: 1px solid #004085; /* Dark blue border for inputs */
             border-radius: 4px;
             background: #FFFFFF; /* White background for input fields */
             color: #333; /* Dark text for readability */
         }
         button {
-            background: #007BFF; /* Blue button */
+            background: #004085; /* Dark blue button */
             color: white;
             padding: 10px;
             border: none;
@@ -83,7 +83,7 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #0056b3; /* Darker blue on hover */
+            background: #003366; /* Darker blue on hover */
         }
 
         /* Smooth scrolling effect */
@@ -91,8 +91,8 @@
             scroll-behavior: smooth;
         }
         .site-map {
-            background: #E9F3FE; /* Light blue background for site map */
-            color: #007BFF; /* Blue text */
+            background: #CFE2FF; /* Light blue background for site map */
+            color: #004085; /* Dark blue text */
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
@@ -105,7 +105,7 @@
             text-decoration: underline;
         }
         .site-map a {
-            color: #007BFF; /* Blue link color */
+            color: #004085; /* Dark blue link color */
             text-decoration: none;
             font-weight: bold;
             display: block;
