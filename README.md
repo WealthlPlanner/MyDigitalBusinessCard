@@ -6,37 +6,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #2E2E2E;
+            background-color: #E6F7FF; /* Light blue background */
             margin: 0;
             padding: 0;
-            color: #D3D3D3;
+            color: #333; /* Dark text color */
             scroll-behavior: smooth;
         }
         .container {
             width: 90%;
             max-width: 950px;
             margin: 30px auto;
-            background: #3A3A3A;
+            background: #FFFFFF; /* White background */
             padding: 30px;
-            box-shadow: 0px 0px 10px #555;
+            box-shadow: 0px 0px 10px #A3C9FF; /* Soft blue shadow */
             border-radius: 7px;
             text-align: center;
         }
         h1, h2 {
-            color: #1E90FF;
+            color: #1E90FF; /* Blue color for headings */
         }
         p {
-            color: white;
+            color: #333;
         }
         .contact-info {
-            background: #444;
-            color: white;
+            background: #D9E6FF; /* Light blue background for contact info */
+            color: #1E90FF; /* Blue text */
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
         .contact-info a {
-            color: white;
+            color: #1E90FF; /* Blue link color */
             text-decoration: none;
             font-weight: bold;
         }
@@ -44,23 +44,23 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #4A4A4A;
+            background: #F0F8FF; /* Light blue background for sections */
             border-radius: 5px;
         }
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #666;
+            background-color: #1E90FF; /* Blue button background */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
         }
         .button:hover {
-            background-color: #555;
+            background-color: #4682B4; /* Darker blue on hover */
         }
         .meeting-form {
-            background: #4A4A4A;
+            background: #D9E6FF; /* Light blue background for form */
             padding: 15px;
             border-radius: 5px;
         }
@@ -68,13 +68,13 @@
             width: 100%;
             padding: 8px;
             margin: 5px 0;
-            border: 1px solid #777;
+            border: 1px solid #A3C9FF; /* Light blue border */
             border-radius: 4px;
-            background: #555;
-            color: white;
+            background: #FFFFFF; /* White background for input fields */
+            color: #333; /* Dark text */
         }
         button {
-            background: #666;
+            background: #1E90FF; /* Blue button */
             color: white;
             padding: 10px;
             border: none;
@@ -83,16 +83,16 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #555;
+            background: #4682B4; /* Darker blue on hover */
         }
-        
+
         /* Smooth scrolling effect */
         html {
             scroll-behavior: smooth;
         }
         .site-map {
-            background: #444;
-            color: white;
+            background: #D9E6FF; /* Light blue background for site map */
+            color: #1E90FF; /* Blue text */
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
@@ -105,7 +105,7 @@
             text-decoration: underline;
         }
         .site-map a {
-            color: white;
+            color: #1E90FF; /* Blue link color */
             text-decoration: none;
             font-weight: bold;
             display: block;
@@ -133,6 +133,16 @@
             <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines, and targets. We give you access to affordable business funding that empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success.</p>
         </div>
 
+        <div class="section" id="loans">
+            <h2>Loans & Short-Term Funding</h2>
+            <p>We offer short-term funding and bridging finance solutions to help you bridge the gap when it’s needed most. Whether you're dealing with cash flow challenges or need a temporary solution to cover costs, we're here to support your business in growing and thriving.</p>
+        </div>
+
+        <div class="section" id="stepchain">
+            <h2>StepChain</h2>
+            <p>Monetize your steps! With StepChain, get paid for walking and playing brain games. It's not only an opportunity to earn passive income but also a way to improve your mental and physical health. Start moving today and make every step count!</p>
+        </div>
+
         <div class="section" id="about">
             <h2>What I Do</h2>
             <ul>
@@ -143,6 +153,11 @@
                 <li>Life Coach</li>
                 <li>Business Restructuring & Planning</li>
             </ul>
+        </div>
+
+        <div class="section" id="property">
+            <h2>Property: Sales Manager</h2>
+            <p>I specialize in sales and rentals, helping clients buy, sell, and rent properties. My experience ensures that your property needs are met with expertise and care, whether you’re looking to purchase your dream home or rent a space that suits your lifestyle.</p>
         </div>
 
         <div class="section meeting-form" id="book-meeting">
@@ -177,6 +192,9 @@
             <a href="#home">Home</a>
             <a href="#contact">Contact</a>
             <a href="#services">What We Do</a>
+            <a href="#loans">Loans & Short-Term Funding</a>
+            <a href="#stepchain">StepChain</a>
+            <a href="#property">Property: Sales Manager</a>
             <a href="#about">What I Do</a>
             <a href="#book-meeting">Book a Meeting</a>
         </div>
