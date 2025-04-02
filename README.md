@@ -197,6 +197,11 @@
                         <h3>Leadership Development</h3>
                         <p>We focus on developing strong leadership within organizations to drive success and foster a positive company culture.</p>
                     </div>
+                    <!-- New StepChain service item -->
+                    <div class="service-item">
+                        <h3>StepChain</h3>
+                        <p>Monetize your steps. Get paid for walking and playing brain games. Improve your mental and physical health.</p>
+                    </div>
                 </div>
             </div>
 
